@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "3.6.3"
+let version = "3.6.4-beta.1"
 let package = Package(
     name: "Mobilisten",
     platforms: [.iOS(.v10)],
