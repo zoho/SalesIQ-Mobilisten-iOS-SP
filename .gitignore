@@ -2,6 +2,7 @@
 xcuserdata/
 *.swiftpm*
 .build/
+*.wpm
 *.zip
 Packages/
 Package.pins
