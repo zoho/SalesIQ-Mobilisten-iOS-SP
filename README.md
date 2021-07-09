@@ -14,7 +14,7 @@ Connect with customers at every step of their journey. Give them the best in-app
 4. Select Mobilisten under Package Products and click on **Finish**
 5. The installation is now complete 🎉 🥳 
 
-Mobilisten comes with a set of highly configurable APIs to suit your needs. Generate `App` and `Access` keys for the Mobilisten SDK for your application's bundle ID from the Zoho SalesIQ console.
+Mobilisten comes with a set of highly configurable APIs to suit your needs. Register your app's Bundle ID via the SalesIQ Console to generate the `App` and `Access` keys for Mobilisten.
 
 ## Initializing Mobilisten
 Use the `ZohoSalesIQ.initWithAppKey(:accessKey:completion:)` API to initialize Mobilisten.
@@ -23,10 +23,6 @@ ZohoSalesIQ.initWithAppKey("app_key", accessKey: "access_key") { _ in
     // your code goes here
 }
 ```
-
-Register your app's Bundle ID via the SalesIQ Console to generate the App and Access keys to be entered in the **`ZohoSalesIQ.initWithAppKey`** API after importing Mobilisten.
-
-Find our detailed installation guide [here](https://www.zoho.com/salesiq/help/developer-section/ios-mobile-sdk-installation.html)
 
 ## API Documentation
 You can find the list of all APIs and their documentation [here](https://www.zoho.com/salesiq/help/developer-section/ios-sdk-event-delegate.html) in the **API Reference** section.
