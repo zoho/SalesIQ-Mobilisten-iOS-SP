@@ -8,13 +8,21 @@ Connect with customers at every step of their journey. Give them the best in-app
 
 ## Quick Start Guide
 
-**Mobilisten** comes with a set of highly configurable APIs to suit your needs.
-
 1. Navigate to the **Swift Packages** tab under project settings.
 2. Add `https://github.com/zoho/SalesIQ-Mobilisten-iOS-SP` as the package repository and click on **Next**.
 3. Choose the latest release of the package under package options and click on **Next**.
 4. Select Mobilisten under Package Products and click on **Finish**
 5. The installation is now complete 🎉 🥳 
+
+Mobilisten comes with a set of highly configurable APIs to suit your needs. Generate `App` and `Access` keys for the Mobilisten SDK for your application's bundle ID from the Zoho SalesIQ console.
+
+## Initializing Mobilisten
+Use the `ZohoSalesIQ.initWithAppKey(:accessKey:completion:)` API to initialize Mobilisten.
+```swift
+ZohoSalesIQ.initWithAppKey("app_key", accessKey: "access_key") { _ in
+    // your code goes here
+}
+```
 
 Register your app's Bundle ID via the SalesIQ Console to generate the App and Access keys to be entered in the **`ZohoSalesIQ.initWithAppKey`** API after importing Mobilisten.
 
