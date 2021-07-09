@@ -6,7 +6,7 @@
 
 Connect with customers at every step of their journey. Give them the best in-app live chat experience with Mobilisten. Mobilisten enables customers to reach you from any screen on your app, get their questions answered, and make better purchase decisions.
 
-## Quick Start Guide
+## Quick Start Guide 💨
 
 1. Navigate to the **Swift Packages** tab under project settings.
 2. Add `https://github.com/zoho/SalesIQ-Mobilisten-iOS-SP` as the package repository and click on **Next**.
@@ -25,4 +25,4 @@ ZohoSalesIQ.initWithAppKey("app_key", accessKey: "access_key") { _ in
 ```
 
 ## API Documentation
-You can find the list of all APIs and their documentation [here](https://www.zoho.com/salesiq/help/developer-section/ios-sdk-event-delegate.html) in the **API Reference** section.
+You can find the list of all APIs and their documentation [here](https://www.zoho.com/salesiq/help/developer-section/ios-sdk-event-delegate.html) under the **API Reference** section.
