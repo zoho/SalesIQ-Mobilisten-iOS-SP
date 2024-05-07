@@ -1,10 +1,10 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "8.1.3"
+let version = "9.0.0"
 let package = Package(
     name: "Mobilisten",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "Mobilisten",
@@ -13,6 +13,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Mobilisten",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/v\(version)/Mobilisten.zip", checksum: "86d46b9c811f6616d06ddf186ec85ddee63d0c37ada5f12d206314383bd73f94")
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/v\(version)/Mobilisten.zip", checksum: "dfbc43ec9af9f15688e4e3190ccd9dc81c4878992ea62b44a423dcd38064faf5")
     ]
 )
