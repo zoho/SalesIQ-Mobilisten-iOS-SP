@@ -1,6 +1,6 @@
 [![Platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://cocoapods.org/pods/Mobilisten)
 [![SupportedLanguages](https://img.shields.io/badge/languages-Swift%20%7C%20%20ObjectiveC-green.svg)](https://www.zoho.com/salesiq/help/developer-section/ios-mobile-sdk-installation.html)
-[![Version](https://img.shields.io/badge/version-9.1.0-blue.svg)](https://cocoapods.org/pods/Mobilisten)
+[![Version](https://img.shields.io/badge/version-9.1.1-blue.svg)](https://cocoapods.org/pods/Mobilisten)
 
 # Swift Package for SalesIQ Mobilisten iOS SDK
 
