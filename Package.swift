@@ -2,8 +2,8 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-let mobilisten_version = "v10.0.0"
-let mobilisten_calls_version = "Calls-1.0.0"
+let mobilisten_version = "v10.1.0"
+let mobilisten_calls_version = "Calls-1.0.1"
 let package = Package(
     name: "Mobilisten",
     products: [
@@ -17,50 +17,59 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "MobilistenCalls",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/MobilistenCalls.zip",
-            checksum: "b067cd7d0a255b7e66767ab3dca64d0e73b05d1268a2b6ffafca1514241c37b4"
-        ),
-
-        .binaryTarget(
-            name: "AppBridge",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AppBridge.zip",
-            checksum: "ff09c5478d142bd011f852ead61bfb385ba879c1429059aba871451921975eeb"
-        ),
-        
-        .binaryTarget(
             name: "AVCallKit",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AVCallKit.zip",
-            checksum: "fcc3ed64ee6f560fc59128a3847cf1620e6c5c68e60a605326d9fd3d46d0818e"
+            checksum: "29996fb130986c8f0373fda40c012ae05835460a7ae288f86081c0c2ec7cd1cd"
         ),
-        
+        .binaryTarget(
+            name: "AVCallKitBridge",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/AVCallKitBridge.zip",
+            checksum: "439f8d05d27acbfe578b0e9a500fe67b891f611873f9a088b145c35afb81da96"
+        ),
         .binaryTarget(
             name: "AVCommonsCore",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AVCommonsCore.zip",
             checksum: "c8742068fca3d4284c5fb10c1db0552162683c3419b6087785217f18603500cf"
         ),
-
         .binaryTarget(
             name: "AVCommonsVoIP",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AVCommonsVoIP.zip",
             checksum: "3c31f64d02575f5fbd4ef31d2047002fc421f8c453eb0850523f27999c05417a"
         ),
-
+        .binaryTarget(
+            name: "AppBridge",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AppBridge.zip",
+            checksum: "ff09c5478d142bd011f852ead61bfb385ba879c1429059aba871451921975eeb"
+        ),
         .binaryTarget(
             name: "Floatkit",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/Floatkit.zip",
             checksum: "1c7e7afda8d4d6436b333e544dfae3f239c631d54d73c90e7367bff5b1e46f14"
         ),
-        
-        .binaryTarget(
-            name: "iRTCPMeeting",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/iRTCPMeeting.zip",
-            checksum: "a72693f4e00ead3221f82af26fd61073a3b1575b57ae8140dee8b0e18d370560"
-        ),
         .binaryTarget(
             name: "MeetingsCore",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/MeetingsCore.zip",
             checksum: "9d6ba32b89d99e4d1d3ce277d604217857b3f38ceb6f97578d84662d7bf54b3f"
+        ),
+        .binaryTarget(
+            name: "Mobilisten",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/Mobilisten.zip",
+            checksum: "0edc6c8c36af8902ef7c2de3efc280a6b48924c01d232a5fc6f051be429984d7"
+        ),
+        .binaryTarget(
+            name: "MobilistenCalls",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/MobilistenCalls.zip",
+            checksum: "b067cd7d0a255b7e66767ab3dca64d0e73b05d1268a2b6ffafca1514241c37b4"
+        ),
+        .binaryTarget(
+            name: "MobilistenCallsCore",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/MobilistenCallsCore.zip",
+            checksum: "d122e8656cf5c9279fdfb8d3e049f194e6742ac32053f5198cdb597b11a3cc6e"
+        ),
+        .binaryTarget(
+            name: "MobilistenCore",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/MobilistenCore.zip",
+            checksum: "69eeb57c78516f14b2b6e5da749443a560487d96176c8042c35e10c114c9fbd0"
         ),
         .binaryTarget(
             name: "Starscream",
@@ -78,6 +87,11 @@ let package = Package(
             checksum: "094166f48c024107722023cd7d19038ab684ab917a5195bfd4cc837dd4ac7862"
         ),
         .binaryTarget(
+            name: "WMSPackage",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WMSPackage.zip",
+            checksum: "7e7389812667c0f8d6a657814e71bd6e0d1ad299d90b5f5c5a4981439be86692"
+        ),
+        .binaryTarget(
             name: "WebRTC",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WebRTC.zip",
             checksum: "d7271fbe42a52e42e70ed8d1f14f2726bf9c4ab3eca868b32068a630891ea517"
@@ -88,37 +102,14 @@ let package = Package(
             checksum: "2e5cadb1ad9d8c4ac1dbb11baff8dfdc10ab249f8854a061c3d41a6397bd64f1"
         ),
         .binaryTarget(
-            name: "WMSPackage",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WMSPackage.zip",
-            checksum: "7e7389812667c0f8d6a657814e71bd6e0d1ad299d90b5f5c5a4981439be86692"
-        ),
-        .binaryTarget(
             name: "ZIPFoundation",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/ZIPFoundation.zip",
             checksum: "97c1f5f7404553f3b00fa22ecb8bcf21ba49f5623880059246e9af0ae83b1976"
         ),
         .binaryTarget(
-            name: "Mobilisten",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/Mobilisten.zip",
-            checksum: "8ca47c79b744c519f6cd0dbf2a58080666c67986388a21ba8dbab500d05a40ae"
-        ),
-        
-        .binaryTarget(
-            name: "MobilistenCore",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/MobilistenCore.zip",
-            checksum: "69eeb57c78516f14b2b6e5da749443a560487d96176c8042c35e10c114c9fbd0"
-        ),
-
-        .binaryTarget(
-            name: "MobilistenCallsCore",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/MobilistenCallsCore.zip",
-            checksum: "d122e8656cf5c9279fdfb8d3e049f194e6742ac32053f5198cdb597b11a3cc6e"
-        ),
-
-        .binaryTarget(
-            name: "AVCallKitBridge",
-            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/AVCallKitBridge.zip",
-            checksum: "439f8d05d27acbfe578b0e9a500fe67b891f611873f9a088b145c35afb81da96"
+            name: "iRTCPMeeting",
+            url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/iRTCPMeeting.zip",
+            checksum: "a72693f4e00ead3221f82af26fd61073a3b1575b57ae8140dee8b0e18d370560"
         )
     ]
 )
