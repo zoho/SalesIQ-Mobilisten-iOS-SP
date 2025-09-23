@@ -2,7 +2,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-let mobilisten_version = "v10.1.2"
+let mobilisten_version = "v10.1.3"
 let mobilisten_calls_version = "Calls-1.0.1"
 let package = Package(
     name: "Mobilisten",
