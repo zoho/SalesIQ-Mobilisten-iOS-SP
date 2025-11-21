@@ -2,8 +2,8 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-let mobilisten_version = "v10.2.0"
-let mobilisten_calls_version = "Calls-1.1.0"
+let mobilisten_version = "v10.2.1"
+let mobilisten_calls_version = "Calls-1.1.1"
 let package = Package(
     name: "Mobilisten",
     products: [
@@ -29,12 +29,12 @@ let package = Package(
         .binaryTarget(
             name: "AVCommonsCore",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AVCommonsCore.zip",
-            checksum: "3939297d5bf57990cc7d1cd882db94f0f885944bcbab15ce2fdacc9bcc969702"
+            checksum: "bbdb83012de19830bb0f3ff4f26896fc5f5fd5f0fd96fd5520186d5ac8a75330"
         ),
         .binaryTarget(
             name: "AppBridge",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AppBridge.zip",
-            checksum: "327ff1eebc99e86608c66f423322a5ba8dfebbff99fd35cd994260988be19ab4"
+            checksum: "31f52331fbfdebdc865b6c64d0bf3314d16b4fd69c50cb64416d7996ab806eed"
         ),
         .binaryTarget(
             name: "Floatkit",
@@ -44,12 +44,12 @@ let package = Package(
         .binaryTarget(
             name: "MeetingClient",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/MeetingClient.zip",
-            checksum: "42a39cfff9c64f22e67c010a5ba2811095ce935155eafefdf3ca6668cfdcfdcd"
+            checksum: "f353c38e9092da9a48299f17eb5fffa234323dfd74db6436f25356b4647a38fb"
         ),
         .binaryTarget(
             name: "Mobilisten",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/Mobilisten.zip",
-            checksum: "8e502bfd4b10f07ad1a9e6947e2aa0b8ff118b0260ce84cb1a5ec19d8af0d228"
+            checksum: "beba4e9e1cdcbdacd46c348f8563ecb1bce62274d795f4109eb64bfdee3b1dc0"
         ),
         .binaryTarget(
             name: "MobilistenCalls",
@@ -69,12 +69,12 @@ let package = Package(
         .binaryTarget(
             name: "Starscream",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/Starscream.zip",
-            checksum: "f028892847f9461c75cb2b04c6b27d89eb1075fe11f0301d4b9ca157a834259a"
+            checksum: "970c84ebf2dbc4b606514d023239ac91f747ed30b1e58c336cd22fd2698059a9"
         ),
         .binaryTarget(
             name: "TraceKit",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/TraceKit.zip",
-            checksum: "884660b4310d8feabeaa213f539deac9163f924f2d19070476c096fc8b46e80f"
+            checksum: "d5de964254cdefdc65c2d13cb181f78cc19c4791fd688c1276760c7f7dfd6d32"
         ),
         .binaryTarget(
             name: "UIPullDownMenuKit",
@@ -84,7 +84,7 @@ let package = Package(
         .binaryTarget(
             name: "WMSPackage",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WMSPackage.zip",
-            checksum: "40095c04cf4a6bb9e1fd8bb389936633b9ff4daed3f5959a546c7e5315df3f37"
+            checksum: "24c9a258fe46f1189837c3d45ae044dbf41653976003e0b311e788cfaa931a51"
         ),
         .binaryTarget(
             name: "WebRTC",
@@ -99,12 +99,12 @@ let package = Package(
         .binaryTarget(
             name: "ZIPFoundation",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/ZIPFoundation.zip",
-            checksum: "49e1159aae89082149b4665dd3d61ea4a86290ea4af31e899deea43fa06f767d"
+            checksum: "1dc2f2a8aeae6adc047871c4cefa7bf37cc864f0aa4af4d84d48bd86ba1a3b61"
         ),
         .binaryTarget(
             name: "iRTCPMeeting",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/iRTCPMeeting.zip",
-            checksum: "842e4390d6cd4a31e422f57870d2572b8729c42e2e50ff641979d26d979c8462"
+            checksum: "f3e60706c354ef1564e74f1cd4531336e61be230e53807f151afcb8f3bad2e3e"
         )
     ]
 )
