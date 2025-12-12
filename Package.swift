@@ -2,7 +2,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-let mobilisten_version = "v10.2.1"
+let mobilisten_version = "v10.2.2"
 let mobilisten_calls_version = "Calls-1.1.1"
 let package = Package(
     name: "Mobilisten",
@@ -49,7 +49,7 @@ let package = Package(
         .binaryTarget(
             name: "Mobilisten",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/Mobilisten.zip",
-            checksum: "beba4e9e1cdcbdacd46c348f8563ecb1bce62274d795f4109eb64bfdee3b1dc0"
+            checksum: "d2bf17c2b58246c14bb85c935d3a0c531b5f361a11a5fadde12f646bcd5347f5"
         ),
         .binaryTarget(
             name: "MobilistenCalls",
