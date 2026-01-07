@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
             name: "AVCallKitBridge",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/AVCallKitBridge.zip",
-            checksum: "7d66009e02b7fceafdf6557fef2ee0b173933e3ce0818c7f407a3534829193d9"
+            checksum: "6a9dcbbe4706f18e87c67b8d83f2a4941e51f9cde9716d1a86cd445548890b59"
         ),
         .binaryTarget(
             name: "AVCommonsCore",
@@ -54,7 +54,7 @@ let package = Package(
         .binaryTarget(
             name: "Mobilisten",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/Mobilisten.zip",
-            checksum: "e9ffe000540585dc4c30780a2e25fa53b93a62fde3af8f06d92f1a15c82b937f"
+            checksum: "16bdce91ecd86079f3d6604f5ab18c628c3866a7a55ec8a1be9bc90838b2a854"
         ),
         .binaryTarget(
             name: "MobilistenCalls",
@@ -64,12 +64,12 @@ let package = Package(
         .binaryTarget(
             name: "MobilistenCallsCore",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/MobilistenCallsCore.zip",
-            checksum: "3e884077148b3bf022b0e3fd9c67b98a4b41de85cd0342ceea2d68ea68cb2580"
+            checksum: "a67beb625b86022592c39c3eff8dc9bcd7f9f34bcb59dfe7c64b651ce5e386fe"
         ),
         .binaryTarget(
             name: "MobilistenCore",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_version)/Frameworks/MobilistenCore.zip",
-            checksum: "9b46795d2a17f2ca18ef9f02b9ce3e7c2cdbfb2b4f0825fb922dda13a517b1f3"
+            checksum: "5b519721add4e95ba8877faab8f8a8d972285fa500a538e5e0adae70ca43ac53"
         ),
         .binaryTarget(
             name: "Starscream",
