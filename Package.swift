@@ -3,7 +3,7 @@
 
 import PackageDescription
 let mobilisten_version = "v10.4.2"
-let mobilisten_calls_version = "Calls-1.2.0"
+let mobilisten_calls_version = "Calls-1.2.1"
 let package = Package(
     name: "Mobilisten",
     platforms: [
@@ -23,7 +23,7 @@ let package = Package(
         .binaryTarget(
             name: "AppBridge",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AppBridge.zip",
-            checksum: "84a2fc5c29ddcc4d14d57f9ea1236138b767c77540f7105daae91fb333fbface"
+            checksum: "cc77581346142fbdbb7de8472d1139ab7c12ba642723094bf7f5d5e2f8da45f5"
         ),
         .binaryTarget(
             name: "AVCallKit",
@@ -38,7 +38,7 @@ let package = Package(
         .binaryTarget(
             name: "AVCommonsCore",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/AVCommonsCore.zip",
-            checksum: "9f73f79740e0a2fdd42d5ebd1e7cbab2b3487531070a5c59116db5ddb8cf2ee6"
+            checksum: "b959c5aeada696fd677f5e5307d1f836548fa69e6d8381738174148ddea8e4ad"
         ),
         .binaryTarget(
             name: "Floatkit",
@@ -48,12 +48,12 @@ let package = Package(
         .binaryTarget(
             name: "iRTCPMeeting",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/iRTCPMeeting.zip",
-            checksum: "c5fe7b39285e858a211e0553ded248313314fc615332a78e1a47ad486887cc10"
+            checksum: "5bc7d2b48429e2f256df9765d9eb570be04c58a7bcefa2bf804435781a3e9c97"
         ),
         .binaryTarget(
             name: "MeetingClient",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/MeetingClient.zip",
-            checksum: "9e6447040b6ea4b164832daf8dccd1def717cf9e63a3f76a19df969daae83d18"
+            checksum: "1cc4dfaae8ea8c6c8e1e81ee4bc06b9857f21b59575b3afe0705da5bf03644b3"
         ),
         .binaryTarget(
             name: "Mobilisten",
@@ -78,12 +78,12 @@ let package = Package(
         .binaryTarget(
             name: "Starscream",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/Starscream.zip",
-            checksum: "04a754190e46135ea6c585e8c600fe4dab0bcc4a9fc3e41ddf4f5dbe95db471b"
+            checksum: "0be2de99e89fc7de699ea28b9704c6a45e257f787c03187679b1ad04ec0ac798"
         ),
         .binaryTarget(
             name: "TraceKit",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/TraceKit.zip",
-            checksum: "119734319f185ae3db8c9ac923720bc5b0378b27bd120480bf14625342d24a93"
+            checksum: "50383f452dbfaf7f741fdf67a64eedaf3b62ef361e12c7de1f19d6e7673ab1e5"
         ),
         .binaryTarget(
             name: "UIPullDownMenuKit",
@@ -93,17 +93,17 @@ let package = Package(
         .binaryTarget(
             name: "WebRTC",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WebRTC.zip",
-            checksum: "d3bf008ac374de6157a8eb92ae9ad757011a962aa0f6fdaaba4ea643412eaf41"
+            checksum: "df09a951356b98cb1a55d802233990372d6f5b74f8d8238511d77da2c3cfcc39"
         ),
         .binaryTarget(
             name: "WebRTCExtras",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WebRTCExtras.zip",
-            checksum: "2e5cadb1ad9d8c4ac1dbb11baff8dfdc10ab249f8854a061c3d41a6397bd64f1"
+            checksum: "6de5c1c2987d76c3443ab3ee30c4838e5871466a6b11ed4c49396e3a3dedb88f"
         ),
         .binaryTarget(
             name: "WMSPackage",
             url: "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/\(mobilisten_calls_version)/Frameworks/WMSPackage.zip",
-            checksum: "cae98e187b899ed0c4137ea3b7944ce2ce0c4e1a154c4e72e0bd754340f3f5bb"
+            checksum: "fa120418ef93d787290c6936de7c9df82e3d820eedd9e8c2020d5479beda8390"
         ),
         .binaryTarget(
             name: "ZIPFoundation",
