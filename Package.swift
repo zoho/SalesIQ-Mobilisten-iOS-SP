@@ -58,7 +58,7 @@ let package = Package(
         .binaryTarget(
             name: "Mobilisten",
             url: "https://github.com/zoho/SalesIQ-Mobilisten-iOS/releases/download/\(mobilisten_version)/MobilistenMain.zip",
-            checksum: "d0093d33b8483d135f5314b70acaa764467a2c7958b50466c5e7c810b8bcbb87"
+            checksum: "ae6880745951676fdc7eccfb628db3216c224a85496e83f5f7d71abb80f99956"
         ),
         .binaryTarget(
             name: "MobilistenCalls",
